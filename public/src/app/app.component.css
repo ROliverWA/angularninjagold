@@ -1,0 +1,48 @@
+
+.keypad {
+    margin-left: 44%;
+    margin-top: 40px;   
+}
+
+.home_pin {
+    margin-top:30px;
+}
+
+.home_title {
+    margin-top: 50px;
+}
+
+.display {
+    height: 90px;
+    width: 150px;
+    background-color: black;
+    font-family: digital-clock-font;
+    font-size: 50pt;
+    vertical-align: top;
+    margin-left: 35px;
+    color: red;
+    
+
+}
+
+.nums {
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+
+.disp {    
+    
+    vertical-align: top;
+    height:75px;
+    
+}
+
+.name_box {
+    background-color: black;
+    color: red;
+}
+
+tbody {
+    background-color: black;
+    
+}

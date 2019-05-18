@@ -1,0 +1,35 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+<h1>Ninja Gold...Again</h1>
+
+<!-- <h2 class='home_title'>Ninja Name:</h2>
+<input type = 'text' class='name_box'> -->
+<h2 class='home_pin'>Secret Ninja Code</h2>
+<div class='keypad'>
+    
+  <div class="display"><span class='disp'>{{code}}</span></div>
+<table style="width: 150px; border-collapse: collapse;" cellpadding="2" class='nums'>
+  <tbody (click)= 'clicked($event.toElement.id)'>
+  <tr >
+  <td class="btn btn-success" [class.disabled]="valid"  id="1">1</td>
+  <td class="btn btn-success" [class.disabled]="valid"  id="2">2</td>
+  <td class="btn btn-success" [class.disabled]="valid"  id="3">3</td>
+  </tr>
+  <tr>
+  <td class="btn btn-success" [class.disabled]="valid"  id="4">4</td>
+  <td class="btn btn-success" [class.disabled]="valid"  id="5">5</td>
+  <td class="btn btn-success" [class.disabled]="valid"  id="6">6</td>
+  </tr>
+  <tr>
+  <td class="btn btn-success" [class.disabled]="valid"  id="7">7</td>
+  <td class="btn btn-success" [class.disabled]="valid"  id="8">8</td>
+  <td class="btn btn-success" [class.disabled]="valid"  id="9">9</td>
+  </tr>
+  <tr>
+  <td class="btn btn-success" id="<"><</td>
+  <td class="btn btn-success" [class.disabled]="valid" id="0">0</td>
+  <td class="btn btn-success" [class.disabled]="!valid" id=">">></td>
+  </tr>
+  </tbody>
+  </table>
+</div>
